@@ -1,5 +1,5 @@
-### Project Name : Country-Info
-# Staring Date: 27June 2024
+## Project Name : Country-Info
+*Staring Date: 27June 2024*
 
 
 **Goal:**
