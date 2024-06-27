@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MainHeader = () => {
     return (
@@ -23,9 +24,12 @@ const MainHeader = () => {
                 <ul
                   tabIndex={0}
                   className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Homepage</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>About</a></li>
+                  
+                  <Link className='btn py-2' to="/">Homepage</Link>
+                  <Link className='btn py-2' to="/all-countries">All Countries</Link>
+                  {/* <Link to="/">Re</Link>
+                  <li></li>
+                  <li><a>About</a></li> */}
                 </ul>
               </div>
             </div>

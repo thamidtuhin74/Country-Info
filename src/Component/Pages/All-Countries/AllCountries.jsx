@@ -1,4 +1,6 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import CountryCard from '../../Template/CountryCard/CountryCard';
 
 const AllCountries = () => {
     const allCountries = useLoaderData();
@@ -22,7 +24,7 @@ const AllCountries = () => {
                     {
             
                         allCountries.map(country=> <CountryCard
-                            key={country.latlng}
+                            key={country?.latlng}
                             country={country}
                             ></CountryCard>)
                     }

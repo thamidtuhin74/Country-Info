@@ -13,12 +13,12 @@ const Home = () => {
             <Hero></Hero>
             <TopRegions></TopRegions>
             <div>
-                {
+                {/* {
                     Countries.map(country=> <CountryCard
                             key={country.latlng}
                             country={country}
                          ></CountryCard>)
-                }
+                } */}
             </div>
         </div>
     );
