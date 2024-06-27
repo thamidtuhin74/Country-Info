@@ -1,8 +1,24 @@
-# React + Vite
+### Project Name : Country-Info
+# Staring Date: 27June 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**Goal:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To create an engaging and informative online platform that provides comprehensive and easily accessible information about different countries, helping users to learn about the world's diverse cultures, histories, geographies, economies, and political systems. This platform aims to be a reliable resource for students, travelers, researchers, and anyone interested in global exploration and education.
+
+## User Features:
+
+
+## FrontEnd
+* ReactJs
+* HTML
+* CSS(Tailwind CSS)
+* DaisyUI
+* Toastify
+
+## BackEND
+* Express Js
+* Firebase Authentication 
+
+
+
