@@ -18,7 +18,9 @@ To create an engaging and informative online platform that provides comprehensiv
 
 ## BackEND
 * Express Js
-* Firebase Authentication 
+* Firebase Authentication
+
+## Project Directory
 
 
 
