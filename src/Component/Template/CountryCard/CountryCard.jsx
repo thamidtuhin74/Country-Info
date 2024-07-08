@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CountryCard = ({country}) => {
     // if(country?.currencies){
@@ -9,6 +10,7 @@ const CountryCard = ({country}) => {
     // }
     const currencyEntries  = country?.currencies ? Object.entries(country.currencies) : [];
     const languageEntries  = country?.languages ? Object.entries(country.languages) : [];
+    const countryName = country?.name?.common;
     
     // console.log(languageEntries)
     return (
@@ -23,7 +25,7 @@ const CountryCard = ({country}) => {
                         </div>
                     </div>
                     <div>
-                        <div className="font-bold">{country?.name?.common}</div>
+                        <div className="font-bold">{countryName}</div>
                         <div className="text-sm opacity-50">{country?.name?.official}</div>
                     </div>
                     </div>
@@ -38,7 +40,8 @@ const CountryCard = ({country}) => {
                 <td>{languageEntries.length > 0 ? languageEntries.map(x => x[1]).join(', ') : ''}</td>
                 <td>{currencyEntries.length > 0 ? `${currencyEntries[0][1]?.name} (${currencyEntries[0][1]?.symbol})` : ''}</td>
                 <th>
-                    <button className="btn btn-ghost btn-xs">details</button>
+                    <Link to={`/country-details/${countryName}`}>
+                    <button className="btn btn-ghost btn-xs">details</button></Link>
                 </th>
             </tr>
     );

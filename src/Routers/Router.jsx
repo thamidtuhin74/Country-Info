@@ -6,6 +6,7 @@ import Main from "../Layout/Main/Main";
 import Home from "../Component/Pages/Home/Home";
 import AllCountries from "../Component/Pages/All-Countries/AllCountries";
 import SingleRigion from "../Component/Template/SingleRigion/SingleRigion";
+import SingleCountry from "../Component/Template/SingleCountry/SingleCountry";
 
   const router = createBrowserRouter([
     {
@@ -38,6 +39,11 @@ import SingleRigion from "../Component/Template/SingleRigion/SingleRigion";
             path: "/region/asia",
             element: <SingleRigion/>,
             loader: ()=> fetch('https://restcountries.com/v3.1/region/asia')
+        },
+        {
+            path: "/country-details/:countryName",
+            element: <SingleCountry/>,
+            loader: ({params})=> fetch(`https://restcountries.com/v3.1/name/${params.countryName}?fullText=true`)
         },
         
 
