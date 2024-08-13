@@ -5,7 +5,7 @@ import MainFooter from '../../Component/Template/Footer/MainFooter';
 
 const Main = () => {
     return (
-        <div className='container mx-auto'>
+        <div className=''>
             <MainHeader/>
             <Outlet></Outlet>
             <MainFooter/>

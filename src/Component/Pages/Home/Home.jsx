@@ -3,23 +3,17 @@ import Hero from '../../Section/Hero/Hero';
 import { useLoaderData } from 'react-router-dom';
 import CountryCard from '../../Template/CountryCard/CountryCard';
 import TopRegions from '../../Section/Hero/TopRegions/TopRegions';
+import Experiance from '../../Section/Experiance/Experiance';
 
 const Home = () => {
 
     const Countries = useLoaderData();
     console.log(Countries);
     return (
-        <div>
+        <div className=''>
             <Hero></Hero>
             <TopRegions></TopRegions>
-            <div>
-                {/* {
-                    Countries.map(country=> <CountryCard
-                            key={country.latlng}
-                            country={country}
-                         ></CountryCard>)
-                } */}
-            </div>
+            <Experiance></Experiance>
         </div>
     );
 };

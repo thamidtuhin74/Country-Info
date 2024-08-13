@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const TopRegions = () => {
     // const [regionName, setRegionName] = useState('')
     return (
-        <div className='my-[80px]'>
+        <div className=''>
             <h2 className='text-3xl font-bold'>Top Regions</h2>
-            <div className='my-[20px] grid grid-cols-3 gap-4'>
+            <div className='my-[20px] grid md:grid-cols-3 grid-cols-1 gap-4'>
                 <div className="card bg-base-100 shadow-xl">
                     <figure>
                         <img
