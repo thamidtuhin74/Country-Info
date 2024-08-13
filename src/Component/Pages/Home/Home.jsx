@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 import CountryCard from '../../Template/CountryCard/CountryCard';
 import TopRegions from '../../Section/Hero/TopRegions/TopRegions';
 import Experiance from '../../Section/Experiance/Experiance';
+import Review from '../../Section/Review/Review';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Hero></Hero>
             <TopRegions></TopRegions>
             <Experiance></Experiance>
+            <Review></Review>
         </div>
     );
 };

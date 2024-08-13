@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='hero-css'>
+        <div className='main-container hero-css'>
             <div
                 className="hero min-h-[60vh]"
                 style={{

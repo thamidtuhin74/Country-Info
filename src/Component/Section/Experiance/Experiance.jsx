@@ -3,7 +3,7 @@ import "./experiance.css";
 
 const Experiance = () => {
     return (
-        <div className=" experiance-wrapper bg-slate-950 pb-[261px] pt-[111px] tracking-widest">
+        <div className="main-container experiance-wrapper bg-slate-950 pb-[261px] pt-[111px] tracking-widest">
             <div className="experiance-content md:flex md:flex-row text-left">
                 <div className="left md:w-7/12 w-full bg-slate-950 pr-14">
                     <p className='poppins-regular text-[21px]'>why us?</p>
